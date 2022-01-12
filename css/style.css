@@ -27,6 +27,7 @@ h1{
 }
 h2{
   font-size: 40px;
+  font-weight: bold;
 }
 h3 {
   font-size: 32px;
@@ -40,6 +41,7 @@ h5{
 }
 a{
   text-decoration: none;
+  font-weight: bold;
 }
 li {
   list-style: none;
@@ -68,7 +70,7 @@ li {
   padding: 112px 0;
 }
 .section-padding-160{
-  padding: 160px 0;
+  padding-bottom: 160px;
 }
 
 
@@ -119,9 +121,11 @@ li {
   padding: 15px 25px;
   background: #23A6F0;
   border-radius: 5px;
+  color: #fff;
 }
 .header .registration ul li a.join-us i {
   margin-left: 15px;
+  color: #fff;
 }
 
 
@@ -173,7 +177,8 @@ li {
   box-shadow: 0px 13px 19px rgba(3, 2, 2, 0.2);
   background: #FFFFFF;
   border-radius: 15px;
-  transition: background 1s ease-in;
+  transition: background .75s ease-in;
+  cursor: pointer;
 }
 .practice-item:hover{
   background: #23A6F0;
@@ -188,13 +193,14 @@ li {
   border-radius: 10px;
   font-size: 32px;
   color: #23A6F0;
-  transition: background 1s ease-in;
+  transition: background .75s ease-in;
 }
 .practice-item h5 {
   margin-top: 18px;
   position: relative;
   margin-bottom: 35px;
   color: #252B42;
+  transition: color .75s ease;
 }
 .practice-item h5::after{
   content: "";
@@ -204,4 +210,63 @@ li {
   background: #E74040;
   left: 0;
   top: calc(100% + 20px);
+}
+.practice-item:hover h5{
+  color: #fff;
+}
+.practice-item:hover p{
+  color: #fff;
+  transition: 0.75s ease;
+}
+
+
+/* ----------------------
+  Client Matter Area CSS
+-------------------------*/
+.client-detail {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 60px;
+}
+.client-img {
+  position: relative;
+}
+.shadow-img {
+  position: absolute;
+  top: 17px;
+  left: 24px;
+  z-index: -1;
+}
+.grap-img {
+  position: absolute;
+  top: 138px;
+  left: -60px;
+}
+.single-img {
+  position: absolute;
+  right: 90px;
+  top: 80px;
+}
+.client-content {
+  padding: 23px 0;
+}
+.client-content h2 {
+  color: #252B42;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  position: relative;
+}
+.client-content h2::after{
+  content: "";
+  position: absolute;
+  width: 94px;
+  height: 7px;
+  background: #E74040;
+  left: 0;
+  bottom: calc(100% + 50px);
+}
+.client-content a {
+  display: inline-block;
+  color: #23A6F0;
+  margin-top: 50px;
 }
