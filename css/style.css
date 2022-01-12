@@ -13,6 +13,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #737373;
 }
 body{
   font-family: 'Montserrat', sans-serif;
@@ -35,6 +36,7 @@ h4{
 }
 h5{
   font-size: 14px;
+  font-weight: bold;
 }
 a{
   text-decoration: none;
@@ -45,13 +47,29 @@ li {
 .container{
   width: 1050px;
   padding: 20px 0;
+  margin: 0 auto;
 }
 .row {
   display: flex;
   justify-content: space-between;
 }
-
-
+.common-title {
+  margin-bottom: 112px;
+}
+.common-title h5 {
+  color: #23A6F0;
+  font-weight: bold;
+}
+.common-title h3{
+  color: #252B42;
+  font-weight: bold;
+}
+.section-padding-112{
+  padding: 112px 0;
+}
+.section-padding-160{
+  padding: 160px 0;
+}
 
 
 
@@ -60,8 +78,6 @@ li {
   Header Area CSS
 -------------------------*/
 .header {
-  display: flex;
-  justify-content: center;
   background-image: url(../images/banner/background.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -138,4 +154,54 @@ li {
   background: #23A6F0;
   color: #fff;
   font-weight: bold;
+}
+
+
+
+
+
+/* ----------------------
+  Practice Area CSS
+-------------------------*/
+.practices {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 30px;
+}
+.practice-item {
+  padding: 35px 40px;
+  box-shadow: 0px 13px 19px rgba(3, 2, 2, 0.2);
+  background: #FFFFFF;
+  border-radius: 15px;
+  transition: background 1s ease-in;
+}
+.practice-item:hover{
+  background: #23A6F0;
+}
+.practice-item:hover a i {
+  background: #FFFFFF;
+}
+
+.practice-item a i {
+  padding: 22px 19px;
+  background: #B3E3FF;
+  border-radius: 10px;
+  font-size: 32px;
+  color: #23A6F0;
+  transition: background 1s ease-in;
+}
+.practice-item h5 {
+  margin-top: 18px;
+  position: relative;
+  margin-bottom: 35px;
+  color: #252B42;
+}
+.practice-item h5::after{
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background: #E74040;
+  left: 0;
+  top: calc(100% + 20px);
 }
