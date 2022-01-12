@@ -18,6 +18,9 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
 }
+.wrap {
+  overflow: hidden;
+}
 h1{
   font-size: 58px;
 }
@@ -36,6 +39,103 @@ h5{
 a{
   text-decoration: none;
 }
+li {
+  list-style: none;
+}
 .container{
   width: 1050px;
+  padding: 20px 0;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+/* ----------------------
+  Header Area CSS
+-------------------------*/
+.header {
+  display: flex;
+  justify-content: center;
+  background-image: url(../images/banner/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header .main-menu ul,
+.header .registration ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.header .main-menu ul li {
+  margin-right: 21px;
+  line-height: 1.8;
+}
+.header .main-menu ul li a {
+  display: inline-block;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.header .main-menu ul li:first-child a{
+  margin-right: 41px;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+}
+.header .registration ul li{
+  margin-left: 45px;
+}
+.header .registration ul li a {
+  display: inline-block;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.header .registration ul li a.join-us{
+  padding: 15px 25px;
+  background: #23A6F0;
+  border-radius: 5px;
+}
+.header .registration ul li a.join-us i {
+  margin-left: 15px;
+}
+
+
+/* ---- Banner Area ---- */
+.banner {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.banner-content {
+  padding: 40px;
+}
+.banner h5 {
+  color: #23A6F0;
+}
+.banner h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+  color: #fff;
+}
+.banner p{
+  margin-bottom: 40px;
+  color: #FFFFFF;
+}
+.banner .join-us {
+  padding: 15px 40px;
+  border-radius: 5px;
+  background: #23A6F0;
+  color: #fff;
+  font-weight: bold;
 }
