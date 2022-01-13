@@ -436,7 +436,7 @@ li {
   padding: 25px 55px;
   box-shadow: 0px 13px 19px rgb(3 2 2 / 20%);
   border-radius: 20px;
-  transition: background-color .75s ease;
+  transition: background-color 1s ease;
 }
 .testimonial-detail:hover {
   background-color: #23A6F0;
