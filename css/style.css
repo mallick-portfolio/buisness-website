@@ -488,6 +488,23 @@ li {
   text-align: center;
   margin-bottom: 60px;
 }
-.newsletter-ininput#search {
+.newsletter-in input {
   padding: 15px 150px;
+  border: 3px solid #E5E5E5;
+  border-radius: 10px;
+}
+.newsletter-in input:focus{
+  outline: none;
+}
+.newsletter-in .subscribe {
+  padding: 17px 20px;
+  cursor: pointer;
+  background: #23A6F0;
+  border: 1px solid #23A6F0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #FFFFFF;
+  letter-spacing: 0.2px;
+  position: relative;
+  left: -9px;
 }
