@@ -83,6 +83,7 @@ li {
   background-image: url(../images/banner/background.png);
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 140px;
 }
 .header .main-menu ul,
 .header .registration ul{
