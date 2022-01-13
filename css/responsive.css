@@ -1,0 +1,142 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+  h1{
+    font-size: 36px;
+  }
+  
+  .container {
+    max-width: 576px;
+    padding: 0 15px;
+  }
+
+  .common-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .header {
+    padding-bottom: 25px;
+  }
+  nav.main-menu {
+    padding: 15px 0;
+  }
+  .practices, .attorneys, .testimonial-client, .teams {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 15px;
+  }
+  section.practice-area {
+    margin-bottom: 35px;
+  }
+  .client-detail {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 10px;
+    text-align: center;
+  }
+  .shadow-img {
+    left: calc(25%);
+  }
+  .grap-img, .single-img {
+    display: none;
+  }
+  .client-content h2::after {
+    display: none;
+  }
+  .attorney-item .sale-card {
+    transform: translateY(-50%);
+  }
+  .newsletter-in input {
+    width: 300px;
+    height: 45px;
+  }
+  .newsletter-in .subscribe {
+    padding: 13.5px 17px;
+    left: -15px;
+  }
+  .footer {
+    margin-top: 30px;
+  }
+  .footer-in {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 15px;
+  }
+  .copyright-footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .copyright {
+    margin-bottom: 30px;
+  }
+}
+
+
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+  .container{
+    max-width: 768px;
+    padding: 0 30px;
+  }
+  .common-title {
+    margin-bottom: 60px;
+    margin-top: 40px;
+  }
+  .row{
+    padding-top: 20px;
+  }
+  .header .registration ul li{
+    margin-left: 8px;
+  }
+  .header .registration ul li a.join-us{
+    padding: 10px 15px;
+  }
+  .header .registration ul li a.join-us i {
+    margin-left: 0;
+  }
+  .practices, .attorneys, .teams {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+  }
+  .practice-area {
+    margin-bottom: 40px;
+  }
+  .attorney-thumbnail img {
+    width: 100%;
+  }
+  
+  .footer {
+    margin-top: 30px;
+  }
+  .footer-in {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 15px;
+  }
+  .copyright-footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .copyright {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px){
+  .container{
+    max-width: 991px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .practices, .attorneys, .teams {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+  }
+  .single-img {
+    right: 50px;
+  }
+  .grap-img {
+    display: none;
+  }
+}
