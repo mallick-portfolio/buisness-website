@@ -122,10 +122,19 @@ li {
   background: #23A6F0;
   border-radius: 5px;
   color: #fff;
+  transition: background .75s ease;
+}
+.header .registration ul li a.join-us:hover {
+  background:#FFFFFF;
+  color: #23A6F0;
 }
 .header .registration ul li a.join-us i {
   margin-left: 15px;
+  transition: color .75s ease;
   color: #fff;
+}
+.header .registration ul li a.join-us:hover i {
+  color: #23A6F0;
 }
 
 
@@ -158,8 +167,12 @@ li {
   background: #23A6F0;
   color: #fff;
   font-weight: bold;
+  transition: background-color .75s ease-in;
 }
-
+.banner .join-us:hover {
+  background-color: #fff;
+  color: #23A6F0;
+}
 
 
 
@@ -189,11 +202,15 @@ li {
 
 .practice-item a i {
   padding: 22px 19px;
-  background: #B3E3FF;
+  background: #23A6F0;
   border-radius: 10px;
   font-size: 32px;
-  color: #23A6F0;
+  color: #FFFFFF;
   transition: background .75s ease-in;
+}
+.practice-item:hover a i{
+  color: #23A6F0;
+  transition: .75s;
 }
 .practice-item h5 {
   margin-top: 18px;
@@ -333,7 +350,9 @@ li {
   box-shadow: 0px 13px 19px rgb(3 2 2 / 20%);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  transition: background-color .75s ease;
 }
+
 .attorney-content .ratting{
   display: flex;
   justify-content: space-between;
@@ -385,10 +404,19 @@ li {
   border-radius: 20px;
   border: 2px solid #23A6F0;
   color: #23A6F0;
+  transition: color .75s ease, background .75s ease;
+}
+.attorney-content:hover .learn-btn{
+  background: #23A6F0;
+  color: #FFFFFF;
 }
 .attorney-content .learn-btn i {
   color: #23A6F0;
   margin-left: 10px;
+  transition: coloro .75 ease;
+}
+.attorney-content .learn-btn i{
+  color: #FFFFFF;
 }
 
 
@@ -408,10 +436,18 @@ li {
   padding: 25px 55px;
   box-shadow: 0px 13px 19px rgb(3 2 2 / 20%);
   border-radius: 20px;
+  transition: background-color .75s ease;
+}
+.testimonial-detail:hover {
+  background-color: #23A6F0;
+  color: #FFFFFF;
 }
 .testimonial p{
   margin-top: 30px;
   margin-bottom: 15px;
+}
+.testimonial-detail:hover p{
+  color: #fff;
 }
 .testimonial .testimonial-ratting ul {
   display: flex;
@@ -421,6 +457,7 @@ li {
   color: #F3CD03;
   margin: 0 3px;
 }
+
 .testimonial .testimonial-ratting ul li i.unfill {
   color: #737373;
 }
@@ -429,7 +466,9 @@ li {
   color: #252B42;
   margin-bottom: 5px;
 }
-
+.testimonial-detail:hover h5 {
+  color: #FFFFFF;
+}
 
 
 /* ----------------------
@@ -458,6 +497,7 @@ li {
 .single-member h4 {
   margin-top: 30px;
   margin-bottom: 10px;
+  color: #252B42;
 }
 .member-social ul {
   display: flex;
@@ -489,9 +529,11 @@ li {
   margin-bottom: 60px;
 }
 .newsletter-in input {
-  padding: 15px 150px;
   border: 3px solid #E5E5E5;
+  height: 53px;
   border-radius: 10px;
+  width: 400px;
+  padding-left: 20px;
 }
 .newsletter-in input:focus{
   outline: none;
