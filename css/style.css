@@ -271,3 +271,123 @@ li {
   color: #23A6F0;
   margin-top: 50px;
 }
+
+
+
+/* ----------------------
+  Client Matter Area CSS
+-------------------------*/
+.attorneys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 30px;
+}
+.attorney-item .attorney-thumbnail {
+  position: relative;
+}
+.attorney-item .attorney-thumbnail  img{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.attorney-item .on-sale p{
+  position: absolute;
+  padding: 5px 10px;
+  background-color: #E74040;
+  color: #fff;
+  border-radius: 5px;
+  top: 20px;
+  left: 30px;
+}
+.attorney-item .sale-card{
+  position: absolute;
+  top: 85%;
+  transform: translateY(-75%);
+  left: 0;
+  right: 0;
+}
+.attorney-item .sale-card ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.attorney-item .sale-card ul li{
+  margin: 0 5px;
+}
+.attorney-item .sale-card ul li a i {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  line-height: 2.4;
+  font-size: 20px;
+  color: #252B42;
+  transition: 1s ease;
+}
+.attorney-item .sale-card ul li a:hover i{
+  background-color: #23A6F0;
+  color: #fff;
+}
+.attorney-content {
+  padding: 35px 25px;
+  box-shadow: 0px 13px 19px rgb(3 2 2 / 20%);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.attorney-content .ratting{
+  display: flex;
+  justify-content: space-between;
+}
+.attorney-content .ratting p{
+  background-color: #252B42;
+  padding: 5px;
+  border-radius: 40px;
+  color: #FFFFFF;
+}
+.attorney-content .ratting p i {
+  margin-left: 5px;
+  color: #FFCE31;
+  font-size: 15px;
+}
+.attorney-content h5 {
+  color: #23A6F0;
+}
+.attorney-content h4 {
+  color: #252B42;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.attorney-content .sales {
+  color: #737373;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+.attorney-content .sales i {
+  margin-right: 10px;
+}
+.attorney-content .sale-price {
+  color: #BDBDBD;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.attorney-content .price {
+  color: #40BB15;
+  font-size: 16px;
+  font-weight: bold;
+}
+.attorney-content .learn-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid #23A6F0;
+  color: #23A6F0;
+}
+.attorney-content .learn-btn i {
+  color: #23A6F0;
+  margin-left: 10px;
+}
