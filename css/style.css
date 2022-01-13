@@ -508,3 +508,47 @@ li {
   position: relative;
   left: -9px;
 }
+
+
+/* ----------------------
+  Footer Area CSS
+-------------------------*/
+.footer-in {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 30px;
+  padding-bottom: 50px;
+}
+.footer-menu h4{
+  color: #252B42;
+  margin-bottom: 20px;
+}
+.footer-menu ul li{
+  margin-bottom: 10px;
+}
+.footer-menu ul li a{
+  font-weight: bold;
+}
+.footer-menu ul li a .social-icon {
+  font-size: 16px;
+  font-weight: bold;
+  color: #23A6F0;
+}
+.copyright-footer{
+  background-color: #FAFAFA;
+  padding: 25px 0;
+}
+.copyright-footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-social ul {
+  display: flex;
+}
+.footer-social ul li{
+  margin-left: 20px;
+}
+.footer-social ul li a i {
+  font-size: 24px;
+  color: #23A6F0;
+}
