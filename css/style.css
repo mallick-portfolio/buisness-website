@@ -122,7 +122,7 @@ li {
   background: #23A6F0;
   border-radius: 5px;
   color: #fff;
-  transition: background .75s ease;
+  transition: background .5s ease;
 }
 .header .registration ul li a.join-us:hover {
   background:#FFFFFF;
@@ -130,7 +130,7 @@ li {
 }
 .header .registration ul li a.join-us i {
   margin-left: 15px;
-  transition: color .75s ease;
+  transition: color .5s ease;
   color: #fff;
 }
 .header .registration ul li a.join-us:hover i {
@@ -167,7 +167,7 @@ li {
   background: #23A6F0;
   color: #fff;
   font-weight: bold;
-  transition: background-color .75s ease-in;
+  transition: background-color .5s ease-in;
 }
 .banner .join-us:hover {
   background-color: #fff;
@@ -190,7 +190,7 @@ li {
   box-shadow: 0px 13px 19px rgba(3, 2, 2, 0.2);
   background: #FFFFFF;
   border-radius: 15px;
-  transition: background .75s ease-in;
+  transition: background .5s ease-in;
   cursor: pointer;
 }
 .practice-item:hover{
@@ -206,18 +206,18 @@ li {
   border-radius: 10px;
   font-size: 32px;
   color: #FFFFFF;
-  transition: background .75s ease-in;
+  transition: background .5s ease-in;
 }
 .practice-item:hover a i{
   color: #23A6F0;
-  transition: .75s;
+  transition: .5s;
 }
 .practice-item h5 {
   margin-top: 18px;
   position: relative;
   margin-bottom: 35px;
   color: #252B42;
-  transition: color .75s ease;
+  transition: color .5s ease;
 }
 .practice-item h5::after{
   content: "";
@@ -233,7 +233,7 @@ li {
 }
 .practice-item:hover p{
   color: #fff;
-  transition: 0.75s ease;
+  transition: 0.5s ease;
 }
 
 
@@ -317,7 +317,7 @@ li {
 .attorney-item .sale-card{
   position: absolute;
   top: 85%;
-  transform: translateY(-75%);
+  transform: translateY(-5%);
   left: 0;
   right: 0;
 }
@@ -350,7 +350,7 @@ li {
   box-shadow: 0px 13px 19px rgb(3 2 2 / 20%);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  transition: background-color .75s ease;
+  transition: background-color .5s ease;
 }
 
 .attorney-content .ratting{
@@ -404,7 +404,7 @@ li {
   border-radius: 20px;
   border: 2px solid #23A6F0;
   color: #23A6F0;
-  transition: color .75s ease, background .75s ease;
+  transition: color .5s ease, background .5s ease;
 }
 .attorney-content:hover .learn-btn{
   background: #23A6F0;
@@ -413,7 +413,7 @@ li {
 .attorney-content .learn-btn i {
   color: #23A6F0;
   margin-left: 10px;
-  transition: coloro .75 ease;
+  transition: coloro .5 ease;
 }
 .attorney-content .learn-btn i{
   color: #FFFFFF;
