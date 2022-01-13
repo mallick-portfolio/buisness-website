@@ -75,7 +75,6 @@ li {
 
 
 
-
 /* ----------------------
   Header Area CSS
 -------------------------*/
@@ -390,4 +389,43 @@ li {
 .attorney-content .learn-btn i {
   color: #23A6F0;
   margin-left: 10px;
+}
+
+
+
+/* ----------------------
+  Testimonial Area CSS
+-------------------------*/
+.testimonial-client {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 30px;
+}
+.testimonial-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 55px;
+  box-shadow: 0px 13px 19px rgb(3 2 2 / 20%);
+  border-radius: 20px;
+}
+.testimonial p{
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.testimonial .testimonial-ratting ul {
+  display: flex;
+  align-items: center;
+}
+.testimonial .testimonial-ratting ul li i {
+  color: #F3CD03;
+  margin: 0 3px;
+}
+.testimonial .testimonial-ratting ul li i.unfill {
+  color: #737373;
+}
+.testimonial .testimonial-detail h4 {
+  margin-top: 15px;
+  color: #252B42;
+  margin-bottom: 5px;
 }
